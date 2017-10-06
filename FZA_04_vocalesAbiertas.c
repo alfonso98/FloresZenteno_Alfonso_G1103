@@ -31,9 +31,9 @@ int main(){
 		}
 	}
 //Se usa primero un switch para determinar si se trata de una vocal o no.
-//Después se compara la vocal para decir si es de tipo abierta o cerrada.
+//DespuÃ©s se compara la vocal para decir si es de tipo abierta o cerrada.
 /*
-	En mi opinion de podria solucionar sólo con un switch de la siguiente forma:
+	En mi opinion de podria solucionar sÃ³lo con un switch de la siguiente forma:
 		
 	switch(vocal){
 		case 'a': printf("\nEs una vocal de tipo abierta."); break;
