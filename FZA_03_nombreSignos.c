@@ -1,5 +1,5 @@
 // 3)
-//Escribe un programa que muestre tu apellido con algún caracter:
+//Escribe un programa que muestre tu apellido con algÃºn caracter:
 
 #include <stdio.h>
 int main (){
