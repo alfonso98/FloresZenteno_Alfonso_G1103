@@ -1,7 +1,7 @@
 /*
 2) 
-Debes realizar un programa que te pida dos n˙meros al inicio, realice las cuatro operaciones 
-aritmÈticas b·sicas y escriba en terminal si el resultado de cada una de las operaciones 
+Debes realizar un programa que te pida dos n√∫meros al inicio, realice las cuatro operaciones 
+aritm√©ticas b√°sicas y escriba en terminal si el resultado de cada una de las operaciones 
 es mayor (o menor) que 100.
 */
 #include <stdio.h>
@@ -13,20 +13,20 @@ int main(){
 	setlocale(LC_ALL,"");
 	float num1, num2;
 	
-	printf("\t******Operaciones B·sicas******");
+	printf("\t******Operaciones B√°sicas******");
 	printf("\n\nDame un numero entero o decimal: ");
 	scanf("%f",&num1);
 	printf("\nDame otro numero entero o decimal: ");
 	scanf("%f",&num2);
 	
-	printf("\n\tOperaciones b·sicas:");
+	printf("\n\tOperaciones b√°sicas:");
 	printf("\n\n>Suma: %0.2f + %0.2f = %0.2f ", num1,num2, num1+num2); 
 	comp(num1+num2);
 	printf("\n\n>Resta: %0.2f - %0.2f = %0.2f ", num1,num2,num1-num2);
 	comp(num1-num2);
-	printf("\n\n>MultiplicaciÛn: %0.2f x %0.2f = %0.2f ", num1,num2,num1*num2);
+	printf("\n\n>Multiplicaci√≥n: %0.2f x %0.2f = %0.2f ", num1,num2,num1*num2);
 	comp(num1*num2);
-	printf("\n\nDivisiÛn: %0.2f / %0.2f = %0.2f ", num1,num2,num1/num2);
+	printf("\n\nDivisi√≥n: %0.2f / %0.2f = %0.2f ", num1,num2,num1/num2);
 	comp(num1/num2);
 	
 }
